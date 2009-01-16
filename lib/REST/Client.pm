@@ -49,7 +49,6 @@ REST::Client - A simple client for interacting with RESTful http/https resources
  #Requests can be specificed directly as well
  $client->request('GET', '/dir/file', 'request body content', {CustomHeader => 'Value'});
 
-
 =head1 DESCRIPTION
 
 REST::Client provides a simple way to interact with HTTP RESTful resources.
@@ -69,7 +68,7 @@ use 5.008_000;
 use constant TRUE => 1;
 use constant FALSE => 0;
 
-our ($VERSION) = ('$Rev: 59 $' =~ /(\d+)/);
+our ($VERSION) = ('$Rev: 60 $' =~ /(\d+)/);
 
 use URI;
 use LWP::UserAgent;
